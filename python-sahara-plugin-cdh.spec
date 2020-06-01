@@ -158,3 +158,4 @@ install -p -D -m 644 doc/build/man/*.1 %{buildroot}%{_mandir}/man1/
 
 
 %changelog
+# REMOVEME: error caused by commit http://git.openstack.org/cgit/openstack/sahara-plugin-cdh/commit/?id=5bab216f9841b67fa58394d3cb7d66c93e58a40c
