@@ -5,5 +5,5 @@ global:Anonymous-Users	Anonymous Users
 fa9ea37a700565ef707e35b49396c2468be093dd	openstack/sahara-plugin-cdh-core
 401cf37bee35d1c809d4d957e55f2a304f8eed69	rdo-provenpackagers
 14d33e8e1347d675159c449fb1bb9eefb1812836	openstack/sahara-plugin-cdh-ptl
-6ddfecad023c6f4fa3ac8c4d2583c502ea675a73	Non-Interactive Users
 4572c517702492251ad622a289176552a8acbbb2	rdo-superusers
+6ddfecad023c6f4fa3ac8c4d2583c502ea675a73	Non-Interactive Users
