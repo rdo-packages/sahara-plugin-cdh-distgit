@@ -1,0 +1,27 @@
+From ee6de65850d81a0a5bfdc70ab395dcdbd1a38f7d Mon Sep 17 00:00:00 2001
+From: Joel Capitao <jcapitao@redhat.com>
+Date: Wed, 26 Jul 2023 11:46:22 +0200
+Subject: [PATCH] Update the shebang to python3
+
+It's needed downstream when packaging. In RDO and Fedora,
+we are hitting the issue "ERROR: ambiguous python shebang" during
+the build.
+
+Change-Id: I3f6fa3457b704bf57e3d7328f27e3440f57daa49
+---
+ sahara_plugin_cdh/plugins/cdh/v5_13_0/resources/cdh_config.py | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/sahara_plugin_cdh/plugins/cdh/v5_13_0/resources/cdh_config.py b/sahara_plugin_cdh/plugins/cdh/v5_13_0/resources/cdh_config.py
+index c0e9208..bd33f67 100755
+--- a/sahara_plugin_cdh/plugins/cdh/v5_13_0/resources/cdh_config.py
++++ b/sahara_plugin_cdh/plugins/cdh/v5_13_0/resources/cdh_config.py
+@@ -1,4 +1,4 @@
+-#!/usr/bin/env python
++#!/usr/bin/env python3
+ # Copyright (c) 2017 Massachusetts Open Cloud
+ #
+ # Licensed under the Apache License, Version 2.0 (the "License");
+-- 
+2.40.1
+
